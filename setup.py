@@ -3,11 +3,11 @@
 from setuptools import setup
 
 setup(
-    name='YourAppName',
+    name='Satchmo',
     version='1.0',
-    description='OpenShift App',
-    author='Your Name',
-    author_email='example@example.com',
+    description='Satchmo Shop App',
+    author='Eparst',
+    author_email='rus-f1@ya.ru',
     url='http://www.python.org/sigs/distutils-sig/',
-    install_requires=['Django<=1.4'],
+    install_requires=['Django=1.4.5'],
 )
