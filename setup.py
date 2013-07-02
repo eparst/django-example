@@ -9,5 +9,5 @@ setup(
     author='Eparst',
     author_email='rus-f1@ya.ru',
     url='http://www.python.org/sigs/distutils-sig/',
-    install_requires=['Django==1.4.5'],
+    install_requires=['Django==1.4'],
 )
