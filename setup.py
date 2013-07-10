@@ -9,7 +9,9 @@ setup(
     author='Your Name',
     author_email='example@example.com',
     url='http://www.python.org/sigs/distutils-sig/',
-    install_requires=['Django==1.4.5','pycrypto','pyyaml','pil','django-threaded-multihost','django-app-plugins',
-    				'sorl-thumbnail','django-signals-ahoy',
-					'django-livesettings','django-keyedcache','South','django-registration'],
+    install_requires=['Django==1.4.5','pycrypto','pyyaml','pil','django-threaded-multihost','django-app-plugins', #'django-app-plugins==0.1.2'
+					'sorl-thumbnail','django-signals-ahoy',
+					'django-livesettings','django-keyedcache','South','django-registration',
+					'sphinx','docutils','fedex','suds','Reportlab'],
+	scripts=['bin/clonesatchmo.py']
 )
